@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+body{
+
+    background-image: url("https://images5.alphacoders.com/128/thumbbig-1284865.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+}
+button{
+    margin: 15px;
+    background-color: rgb(18, 124, 224);
+    border-radius: 50px;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+}
+img:hover{
+    box-shadow: 0 0 20px rgb(11, 179, 230);
+    transform: scale(1.1);
+}
+
+.a{
+    background-color: aquamarine;
+    height: 50px;
+}
+button{
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #fff;
+}
+button:hover{
+    box-shadow: 0 0 20px rgb(193, 11, 230);
+    transform: scale(1.1);
+}
+.nombre{
+    text-align: center;
+    margin: 10px;
+    height: 60px;
+    background-color: blueviolet;
+}
